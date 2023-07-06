@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 320px;
+    margin: 5px;
+    // background-color: aliceblue;
+}
+
+.cardImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.cardInfo {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: start;
+}
+
+.cardTitle {
+    margin: 10px 0;
+}
+
+.cardDescription {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.cardPrice {
+    position: absolute;
+    bottom: 0;
+}
+
+.basketButton {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}

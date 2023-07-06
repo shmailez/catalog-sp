@@ -1,0 +1,56 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "image": "https://imageup.ru/img85/4414031/tatran.jpg",
+      "title": "Кровать TATRAN",
+      "description": "Основание из полированной нержавеющей стали, придает оригинальный парящий эффект.",
+      "price": 120000
+    },
+    {
+      "id": 2,
+      "image": "https://imageup.ru/img235/4414032/vilora.jpg",
+      "title": "Кресло VILORA",
+      "description": "Мягкое и уютное, аккуратное и стильное. Упругие подушки сиденья и приятная на ощупь ткань. ",
+      "price": 21000
+    },
+    {
+      "id": 3,
+      "image": "https://imageup.ru/img234/4414027/menu.jpg",
+      "title": "Стол MENU",
+      "description": "Европейский дуб - отличается особой прочностью и стабильностью.",
+      "price": 34000
+    },
+    {
+      "id": 4,
+      "image": "https://imageup.ru/img205/4414021/askesta.jpg",
+      "title": "Диван ASKESTA",
+      "description": "Благодаря защелкивающемуся механизму диван легко раскладывается в комфортную кровать",
+      "price": 68000
+    },
+    {
+      "id": 5,
+      "image": "https://imageup.ru/img289/4414025/lunar.jpg",
+      "title": "Кресло LUNAR",
+      "description": "Прекрасно переносит солнечные лучи, перепады влажности и любые осадки",
+      "price": 40000
+    },
+    {
+      "id": 6,
+      "image": "https://imageup.ru/img291/4414030/nastan.jpg",
+      "title": "Шкаф Nastan",
+      "description": "Мебель может быть оснащена разнообразными системами подсветки.",
+      "price": 80000
+    }
+  ],
+  "basket": [
+    {
+      "id": 3,
+      "title": "Стол MENU",
+      "description": "Европейский дуб - отличается особой прочностью и стабильностью.",
+      "price": 34000,
+      "image": "https://imageup.ru/img234/4414027/menu.jpg",
+      "quantity": 1
+    }
+  ]
+}

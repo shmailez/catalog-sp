@@ -1,0 +1,23 @@
+.head {
+    background-color: rgb(143, 143, 143);
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.headTitle {
+    color: aliceblue;
+}
+
+.headNav {
+    list-style-type: none;
+    display: flex;
+}
+
+.headLink {
+    margin: 5px;
+    color: azure;
+    text-decoration: none;
+}

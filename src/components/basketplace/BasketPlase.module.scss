@@ -1,0 +1,40 @@
+.basketPlace {
+    display: flex;
+    // justify-content: space-between;
+    // flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    // background-color: rgb(228, 228, 228);
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.purchaseTitle {
+    display: flex;
+    justify-content: space-between;
+    max-width: 720px;
+    width: 100%;
+    // background-color: aliceblue;
+}
+
+.catalogLink {
+    background-color: aqua;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: none;
+}
+
+.emptyBasket {
+    background-color: aqua;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: none;
+}
+
+@media (max-width: 900px) {
+    .basketPlace {
+        flex-direction: column;
+    }
+  }

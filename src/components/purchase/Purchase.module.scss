@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    max-width: 720px;
+    width: 100%;
+    // background-color: rgb(207, 207, 207);
+    margin: 10px 0;
+}
+
+.cardImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // overflow: hidden;
+    width: 200px;
+    // height: 200px;
+}
+
+.image {
+    width: 200px;
+}
+
+.cardInfo {
+    display: flex;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: start;
+}
+
+.cardInfo h3 {
+    margin: 0 15px;
+}
+
+.cardInfo p {
+    margin: 0 15px;
+    max-width: 250px;
+}
+
+.cardInfo span {
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    margin-bottom: 10px;
+}

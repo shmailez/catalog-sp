@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: 400px;
+    background-color: rgb(215, 215, 215);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.orderForm {
+    display: flex;
+    flex-direction: column;
+}
+.formTitle {
+    margin: 20px 0;
+}
+
+.orderForm input{
+    background-color: inherit;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.orderForm span{
+    // background-color: inherit;
+    // border: none;
+    margin-bottom: 10px;
+}
+
+
+.orderButton {
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(40, 40, 40);
+    margin: 20px 0;
+    color: antiquewhite;
+}
